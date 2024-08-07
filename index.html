@@ -203,7 +203,7 @@
         function checkAnswer() {
   clearInterval(intervalId);
   const correctAnswer = questions[currentQuestion].correctAnswer === 'O'; // Convert correctAnswer to a boolean value
-  correctAnswerDisplay.textContent = `정답: ${correctAnswer ? 'O' : 'X'}`;
+  correctAnswerDisplay.textContent = `정답 : ${correctAnswer ? 'O' : 'X'}`;
   if (answer === correctAnswer) {
     // Correct!
     score = score + 1;
